@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: phantomjs-binary
+Version: 2.1.3
+Summary: A pip package for installing binary files of phantomjs
+Home-page: https://github.com/jayjiahua/phantomjs-bin-pip
+Author: jayjiahua
+Author-email: jayjhwu@gmail.com
+License: UNKNOWN
+Description: # phantomjs-bin-pip
+        A pip package for installing binary file of phantomjs
+        
+        
+        ## Usage
+        
+        ```python
+        
+        from selenium import webdriver
+        from phantomjs_bin import executable_path
+        
+        driver = webdriver.PhantomJS(executable_path=executable_path)
+        
+        ```
+Platform: UNKNOWN
